@@ -62,7 +62,6 @@
 }
 
 .main-left{
-    /* border: 1px solid; */
     width: 75%;
     height: 600px;
     background-color: rgba(218, 165, 32, 0.086);
@@ -72,7 +71,6 @@
 }
 
 .main-right {
-    /* border: 1px solid; */
     width: 50%;
     height: 600px;
     display: flex;
@@ -89,7 +87,6 @@
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    /* border: 1px solid; */
 }
 
 .main-banner img {
@@ -248,7 +245,6 @@
     font-family: sans-serif;
     font-size: 14px;
     font-weight: bold;
-    /* align-self: center; */
 }
 
 #main-destination-option{
@@ -323,10 +319,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 4%;
+    margin-top: 3%;
     margin-left: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: light;
+    font-size: 20px;
 }
 
 #main-top-destination{
@@ -350,14 +347,12 @@
     margin-bottom: 1%;
     margin-right: 1%;
     text-align: left;
-    /* margin-bottom: 20px; */
 }
 
 .top-desti-sub{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 0%;
     text-align: left;
-    /* margin-bottom: 20px; */
 }
 
 .upper-top, .lower-top{
@@ -374,7 +369,6 @@
     border-radius: 10px;
     width: 400px;
     height: 250px;
-    /* transition: filter 0.3s ease-in-out; */
 }
 
 .destination-card img {
@@ -435,9 +429,9 @@
 .contact-button{
     display: inline-block;
     padding: 0 20px;
-    color: cadetblue;
+    color:  rgb(55, 230, 155);
     background-color: transparent;
-    border: 2px solid cadetblue;
+    border: 2px solid rgb(55, 230, 155);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
